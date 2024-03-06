@@ -20,6 +20,7 @@ module Control.Concurrent.TokenLimiter.Concurrent
 where
 
 import Control.Concurrent
+import Control.Monad (void)
 import Data.Word
 import GHC.Clock
 import GHC.Generics (Generic)
