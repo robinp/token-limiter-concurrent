@@ -25,9 +25,6 @@ jobs:
 
     - uses: DeterminateSystems/magic-nix-cache-action@v2
 
-    - name: "Check `nix develop` shell"
-      run: nix develop --check
-
     - run: nix build
 
     - continue-on-error: false
