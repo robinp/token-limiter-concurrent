@@ -45,7 +45,7 @@ data TokenLimitConfig = TokenLimitConfig
 -- This only exists because it is also a 'Word64' and would be too easy to confuse with a 'Count'.
 type MonotonicTime = Word64
 
-newtype MonotonicDiffNanos = MonotonicDiffNanos { unMonotonicDiffNanos :: Word64 }
+newtype MonotonicDiffNanos = MonotonicDiffNanos {unMonotonicDiffNanos :: Word64}
   deriving (Show, Eq, Ord, Generic)
 
 -- | A token bucket-based rate limiter
