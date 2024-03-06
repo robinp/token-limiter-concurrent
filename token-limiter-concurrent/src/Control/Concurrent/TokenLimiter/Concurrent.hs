@@ -11,7 +11,7 @@ module Control.Concurrent.TokenLimiter.Concurrent
     canDebit,
     tryDebit,
     waitDebit,
-    MonotonicDiffNanos(..),
+    MonotonicDiffNanos (..),
     waitDebitObserve,
 
     -- * Helper functions
